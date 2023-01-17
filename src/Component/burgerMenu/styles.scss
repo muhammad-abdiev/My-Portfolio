@@ -1,0 +1,72 @@
+.btn-burger {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  width: 26px;
+  height: 26px;
+
+  cursor: pointer;
+  z-index: 1;
+
+  @media (min-width: 600px) {
+    display: none;
+  }
+
+  & span {
+    display: block;
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+
+    transition: background-color 0.3s ease-in;
+
+    background-color: #fff;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+
+      width: 100%;
+      height: 2px;
+
+      background-color: #fff;
+      transition: transform 0.3s ease-in, top 0.3s ease-in;
+
+      top: -8px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+
+      width: 100%;
+      height: 2px;
+      transition: transform 0.3s ease-in, top 0.3s ease-in;
+
+      background-color: #fff;
+
+      top: 8px;
+    }
+  }
+
+  &.opened {
+    & span {
+      background-color: inherit;
+      // display: none;
+
+      &::before {
+        transform: rotate(45deg);
+        top: 1px;
+      }
+
+      &::after {
+        transform: rotate(-45deg);
+        top: 1px;
+      }
+    }
+  }
+}

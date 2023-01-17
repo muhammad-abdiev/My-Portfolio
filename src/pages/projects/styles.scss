@@ -1,0 +1,15 @@
+//TODO ====================
+//? =+=+=+=+=+=+=+=+ Projects
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 30px;
+
+  @media (min-width: 900px) {
+    flex-direction: row;
+  }
+}

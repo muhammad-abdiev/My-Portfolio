@@ -1,0 +1,63 @@
+//TODO ====================
+//? =+=+=+=+=+=+=+=+ Contacts
+
+// .content {
+//   margin-bottom: 30px;
+//   border-bottom: 1px solid var(--dark-border);
+//   padding: 0px 0px 20px 0px;
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .content-list {
+//   min-width: 570px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   text-align: center;
+//   row-gap: 25px;
+
+//   margin: 0 auto;
+//   max-width: 550px;
+
+//   a {
+//     color: var(--accent);
+//   }
+
+//   &__item {
+//     font-size: 0.95rem;
+//     @media (min-width: 600px) {
+//       font-size: 1.2rem;
+//     }
+
+//     p + p {
+//       margin-top: 0.5em;
+//     }
+//   }
+// }
+
+.content {
+  margin-bottom: 30px;
+  border-bottom: 1px solid var(--dark-border);
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  flex-wrap: wrap;
+
+  & .content-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 25px;
+
+    margin: 0 auto;
+    max-width: 550px;
+
+    &__item {
+      font-size: 0.95rem;
+      @media (min-width: 600px) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
