@@ -12,7 +12,7 @@ export function Navbar() {
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <NavLink to="/" className="nav-logo">
+          <NavLink to="/My-Portfolio/" className="nav-logo">
             <strong>My</strong>Portfolio
           </NavLink>
 
@@ -21,7 +21,7 @@ export function Navbar() {
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
-                to="/"
+                to="/My-Portfolio/"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
@@ -32,7 +32,7 @@ export function Navbar() {
 
             <li className="nav-list__item">
               <NavLink
-                to="/projects"
+                to="/My-Portfolio/projects"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
@@ -42,7 +42,7 @@ export function Navbar() {
             </li>
             <li className="nav-list__item">
               <NavLink
-                to="/contacts"
+                to="/My-Portfolio/contacts"
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
