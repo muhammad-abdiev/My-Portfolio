@@ -12,11 +12,11 @@ export default function Home() {
     { id: 5, title: 'Typescript' },
   ])
   const [soft, setSoft] = useState([
-    { id: 1, title: 'Креативный' },
-    { id: 2, title: 'Амбициозный' },
-    { id: 3, title: 'Умение работать в команде' },
-    { id: 4, title: 'Быстро обучаюсь' },
-    { id: 5, title: 'Умение коммуницировать с людьми' },
+    { id: 1, title: 'Creative' },
+    { id: 2, title: 'Ambitious' },
+    { id: 3, title: 'Skill to work in team' },
+    { id: 4, title: 'Fast learner' },
+    { id: 5, title: 'Ability to communicate with people' },
   ])
 
   return (
@@ -29,16 +29,16 @@ export default function Home() {
           <div className="about">
             <ul className="about-list">
               <li className="about-list__item">
-                <p>Я студент 5-го курса ПензГТУ</p>
-                <p>И я начинающий Frontend разработчик</p>
+                <p>I'm a 5th-year student of PenzGTU</p>
+                <p>And I'm a beginner frontend developer</p>
               </li>
 
               <li className="about-list__item">
                 <h2 className="title-2">Hobby</h2>
-                <p>Большую часть времени я уделяю программированию</p>
-                <p>Изучаю английский язык</p>
-                <p>Читаю книги</p>
-                <p>Так же люблю заниматься спортом</p>
+                <p>I spend most of my time programming</p>
+                <p>Learning English</p>
+                <p>Read books</p>
+                <p>I also like to play sports</p>
               </li>
             </ul>
           </div>

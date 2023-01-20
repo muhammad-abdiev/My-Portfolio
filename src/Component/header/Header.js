@@ -26,7 +26,7 @@ export function Header() {
               target="blank"
               className="btn"
             >
-              gitHub
+              GitHub
             </a>
           </div>
 

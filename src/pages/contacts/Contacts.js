@@ -14,7 +14,15 @@ export default function Contacts() {
             </li>
 
             <li className="content-list__item">
-              <h2 className="title-2">Telegram / WatsApp</h2>
+              <h2 className="title-2">
+                <a href="https://t.me/magusha1" target="blank">
+                  Telegram
+                </a>
+                /
+                <a href="https://wa.me/79962471018" target="blank">
+                  WhatsApp
+                </a>
+              </h2>
               <p>
                 <a href="tel:+79962471018">+7 (996) 247-10-18</a>
               </p>

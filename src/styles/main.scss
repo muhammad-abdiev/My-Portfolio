@@ -102,4 +102,8 @@ body {
   @media (min-width: 600px) {
     font-size: 1.875rem;
   }
+
+  & a {
+    color: var(--text-color);
+  }
 }
