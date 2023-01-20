@@ -25,7 +25,7 @@ export default function Home() {
 
       <main className="section">
         <div className="container">
-          <h2 className="title-1">About Me</h2>
+          <h2 className="title-1 title-home">About Me</h2>
           <div className="about">
             <ul className="about-list">
               <li className="about-list__item">
