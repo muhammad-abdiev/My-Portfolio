@@ -6,17 +6,17 @@ import './styles.scss'
 export default function Home() {
   const [hard, setHard] = useState([
     { id: 1, title: 'HTML, CSS, SCSS' },
-    { id: 2, title: 'JavaScript' },
+    { id: 2, title: 'Typescript' },
     { id: 3, title: 'Git' },
-    { id: 4, title: 'ReactJS' },
-    { id: 5, title: 'Typescript' },
+    { id: 4, title: 'React' },
+    { id: 5, title: 'Redux Toolkit' },
   ])
   const [soft, setSoft] = useState([
     { id: 1, title: 'Creative' },
-    { id: 2, title: 'Ambitious' },
-    { id: 3, title: 'Skill to work in team' },
-    { id: 4, title: 'Fast learner' },
-    { id: 5, title: 'Ability to communicate with people' },
+    { id: 2, title: 'Confident' },
+    { id: 3, title: 'Determined' },
+    { id: 4, title: 'Committed' },
+    { id: 5, title: 'Responsible' },
   ])
 
   return (

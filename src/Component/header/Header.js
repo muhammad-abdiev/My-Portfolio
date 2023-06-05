@@ -1,6 +1,6 @@
 import React from 'react'
 
-import User from './../../img/User1.png'
+import Us from './../../img/Us.jpg'
 
 import './styles.scss'
 
@@ -22,7 +22,7 @@ export function Header() {
             </div>
 
             <a
-              href="https://github.com/Magusha1"
+              href="https://github.com/muhammad-abdiev"
               target="blank"
               className="btn"
             >
@@ -31,7 +31,7 @@ export function Header() {
           </div>
 
           <div className="header__img">
-            <img src={User} alt="User" />
+            <img src={Us} alt="Us" />
           </div>
         </div>
       </div>
